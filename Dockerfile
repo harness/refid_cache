@@ -7,8 +7,8 @@ WORKDIR /app
 RUN apk add --no-cache bash coreutils tzdata
 
 # Set the repository URL and target directory
-ARG REPO_URL="https://github.com/github/advisory-database.git"
-ENV TARGET_DIR="advisory-database"
+ARG REPO_URL="https://github.com/harness/refid_cache.git"
+ENV TARGET_DIR="refid_cache"
 
 # Copy the entrypoint script
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh

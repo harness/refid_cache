@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Set the repository directory
-REPO_DIR="/app/advisory-database"
+REPO_DIR="/harness/refid_cache"
 SLEEP_DURATION="12h"
 
 # Function to perform git pull with error handling
